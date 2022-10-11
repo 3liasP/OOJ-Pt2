@@ -119,7 +119,7 @@ Tulosteeksi saadaan:
     String: Java
     StringBuilder: Java 17
 
-String-olio ei muutu, koska Javassa merkkijonotyyppiset oliot ovat mutatoimattomia, toisin kuin Stringbuilder-oliot. Jos haluamme kuitenkin käyttää kuitenkin concat()-metodia, tulee muuttuja "s" määrittään uudelleen:
+String-olio ei muutu, koska Javassa merkkijonotyyppiset oliot ovat mutatoimattomia, toisin kuin Stringbuilder-oliot. Jos haluamme kuitenkin käyttää kuitenkin concat()-metodia, tulee muuttuja "s" määrittää uudelleen:
 
     s = s.concat(" 17");
 
