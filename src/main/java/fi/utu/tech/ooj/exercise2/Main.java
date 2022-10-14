@@ -27,10 +27,10 @@ public class Main {
         tlista.add(sp);
         tlista.add(ns);
         // omaa kokeilua
-        // System.out.println(tlista);
+        System.out.println(tlista);
         TyökaluVarasto tvarasto = new TyökaluVarasto(tlista);
         // omaa kokeilua
-        // System.out.println(tvarasto.getTyökaluLista());
+        System.out.println(tvarasto.getTyökaluLista());
         
         
         // avataan piirturi
