@@ -6,6 +6,10 @@ public class TyökaluVarasto {
 
     private ArrayList<Työkalu> työkaluLista;
 
+    public TyökaluVarasto(ArrayList<Työkalu> tLista) {
+        työkaluLista = tLista;
+    }
+
     /**
      * @param parameter
      */
@@ -30,4 +34,8 @@ public class TyökaluVarasto {
         throw new UnsupportedOperationException();
     }
 
+    // Omaa kokeilua
+    public ArrayList<Työkalu> getTyökaluLista() {
+        return this.työkaluLista;
+    }
 }

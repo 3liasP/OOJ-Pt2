@@ -14,8 +14,8 @@ final public class Piirturi extends Application {
     // valitse tästä piirrettävä piirros:
     // Piirros1 .. PiirrosN tiedostossa Piirros.java
     //Piirros piirros() { return Piirros1.rakenna(); }
-    //Piirros piirros() { return Piirros2.rakenna(); }
-    Piirros piirros() { return Piirros3.rakenna(); }
+    Piirros piirros() { return Piirros2.rakenna(); }
+    // Piirros piirros() { return Piirros3.rakenna(); }
 
     void piirräAlueille(PiirtoAlue[] alueet) {
         for(var alue: alueet) piirros().piirrä(alue);
