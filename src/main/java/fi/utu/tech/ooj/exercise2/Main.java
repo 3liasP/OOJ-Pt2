@@ -26,9 +26,11 @@ public class Main {
         tlista.add(np);
         tlista.add(sp);
         tlista.add(ns);
-        System.out.println(tlista);
+        // omaa kokeilua
+        // System.out.println(tlista);
         TyökaluVarasto tvarasto = new TyökaluVarasto(tlista);
-        System.out.println(tvarasto.getTyökaluLista());
+        // omaa kokeilua
+        // System.out.println(tvarasto.getTyökaluLista());
         
         
         // avataan piirturi

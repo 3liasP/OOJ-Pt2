@@ -18,8 +18,8 @@ class Piirros1 implements Piirros {
     static void tauko() {
         try {
             Thread.sleep(1000);
+        } catch (Exception e) {
         }
-        catch (Exception e) {}
     }
 
     public void piirrä(PiirtoAlue piirtoAlue) {
@@ -27,7 +27,8 @@ class Piirros1 implements Piirros {
         while (iteraatioita-- > 0) {
             var kuvio = kuviointi.seuraavaKuvio();
             var piste = asettelu.seuraavaPiste();
-            if (kuvio == null || piste == null) return;
+            if (kuvio == null || piste == null)
+                return;
             kuvio.piirrä(piste, piirtoAlue);
         }
     }
@@ -55,7 +56,8 @@ class Piirros2 extends Siksak implements Piirros {
         while (iteraatioita-- > 0) {
             var kuvio = kuviointi.seuraavaKuvio();
             var piste = seuraavaPiste();
-            if (kuvio == null || piste == null) return;
+            if (kuvio == null || piste == null)
+                return;
             kuvio.piirrä(piste, piirtoAlue);
         }
     }
@@ -92,7 +94,8 @@ class Piirros3 extends Siksak implements Piirros {
         while (iteraatioita-- > 0) {
             var kuvio = kuviointi.seuraavaKuvio();
             var piste = seuraavaPiste();
-            if (kuvio == null || piste == null) return;
+            if (kuvio == null || piste == null)
+                return;
             kuvio.piirrä(piste, piirtoAlue);
         }
     }
