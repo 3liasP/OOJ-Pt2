@@ -178,4 +178,4 @@ Piirros3 on määritelty `extends Siksak implements Piirros` eikä `extends Siks
 
 Kun dynaamisen sidonta yhdistetään polymorfismin ja rajapintamäärittelyn kanssa, voidaan olioita käsitellä abstraktimmin eri konteksteissa tietämättä kuitenkaan niiden konkreettisia piirteitä.
 
-`Piirros2`-luokka on lyhyempi kirjoittaa, kuin luokka `Piirros3`. 
+`Piirros2`-luokka on myös lyhyempi kirjoittaa, kuin luokka `Piirros3`. 
